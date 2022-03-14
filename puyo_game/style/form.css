@@ -1,0 +1,67 @@
+form{
+	width:45%;
+	margin:0 auto;
+	font-size:18px;
+	background-color:#A6E1FA;
+	padding:4%;
+	box-shadow:0 2px 5px rgba(0,0,0,.26);
+}
+
+form a{
+	display:block;
+	margin-top:20px;
+	text-decoration:none;
+	font-size:16px;
+	text-align:center;
+	color:#3185FC;
+}
+
+form a:hover{
+	color:#000000;
+}
+
+form button{
+	width:7vw;
+	height:7vw;
+	margin-top:20px;
+	font-size:1vw;
+}
+
+form h2{
+	display:block;
+	text-align:center;
+	padding-bottom:20px;
+}
+
+.form_item{
+	display:block;
+	width:100%;
+	padding:2px;
+}
+
+.form_item p{
+	display:inline-block;
+	width:35%;
+	padding:1%;
+	text-align:right;
+	margin:0;
+}
+
+.form_item input{
+	display:inline-block;
+	width:55%;
+	padding:1%;
+	font-family:FredokaOne, Tahoma, monospace;
+	font-size:18px;
+}
+
+#error{
+	display:none;
+	border:3px solid red;
+	color:#E50406;
+	text-align:center;
+	padding:10px;
+	background-color:#FEF229;
+	margin:0;
+	margin-bottom:20px;
+}

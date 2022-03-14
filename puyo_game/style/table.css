@@ -1,0 +1,112 @@
+table{
+	width:100%;
+	font-size:0.9em;
+	color:black;
+	background-color:#A6E1FA;
+	padding:5%;
+	margin:0 auto;
+	box-shadow:0 2px 5px rgba(0,0,0,.26);
+}
+
+td, th{
+	border:2px solid black;
+	padding:10px;
+	text-align:center;
+	margin:0;
+}
+
+thead{
+	font-weight:bold;
+}
+
+.type-selector{
+	text-align:center;
+	width:100%;
+	list-style-type:none;
+	margin:20px 0;
+	padding:0;
+}
+
+.type-selector li {
+	display:inline-block;
+	margin:10px 0;
+	width:22.5%;
+	vertical-align:middle;
+}
+
+.type-selector li a {
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	font-size:16px;
+	padding:16px;
+	color:#0B0A07;
+	line-height:20px;
+	border:2px solid black;
+}
+
+.type-selector li a:hover{
+	background-color:#FFEC00;
+	color:#120A1A;
+}
+
+.table-title{
+	color:#FFEC00;
+	width:100%;
+	text-align:center;
+	margin:0;
+	padding:10px 0;
+	text-shadow:2px 0 black, -2px 0 black, 0 2px black, 0 -2px black;
+}
+
+.col1_3{
+	width:20%;
+}
+
+.col2_3, .col3_3{
+	width:40%;
+}
+
+.divider{
+	height:25px;
+}
+.divider td{
+	border:none;
+}
+
+.arrows{
+	display:block;
+	width:90%;
+	padding:20px 5% 0 5%;
+}
+
+.arrows a{
+	text-align:center;
+	width:25%;
+	text-decoration:none;
+	font-size:20px;
+	border:1px solid #FFEC00;
+	margin:-1px;
+	padding:16px 0;
+	color:#FFEC00;
+}
+
+.arrows .empty{
+	display:inline-block;
+	height:15px;
+	margin:16px 0;
+	width:25%;
+}
+
+.arrows p{
+	display:inline-block;
+	text-align:center;
+	width:50%;
+	margin:16px 0;
+	color:#FFEC00;
+}
+
+.arrows a:hover{
+	color:#120A1A;
+	background-color:#FFEC00;
+}
